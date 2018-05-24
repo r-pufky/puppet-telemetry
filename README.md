@@ -81,8 +81,12 @@ Since your module is awesome, other users will want to play with it. Let them kn
 If you aren't using changelog, put your release notes here (though you should consider using changelog). You can also add any additional sections you feel are necessary or important to include here. Please use the `## ` header.
 
 Endpoints to block:
+
 endpoint_error_reporting = 'watson.telemetry.microsoft.com'
+
 endpoint_online_crash_analysis = 'oca.telemetry.microsoft.com'
+
 endpoint_onedrive_app_reporting = 'vortex.data.microsoft.com/collect/v1'
+
 endpoint_connected_user_experiences = ['v10.vortex-win.data.microsoft.com',
                                        'settings-win.data.microsoft.com']
